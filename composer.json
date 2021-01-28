@@ -1,0 +1,25 @@
+{
+    "name": "splitant/php-bible-api",
+    "description": "API to request bible data from JSON resources.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Axel Depret",
+            "email": "axel.depret.pro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/BibleAPI.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BibleAPI\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    }
+}
